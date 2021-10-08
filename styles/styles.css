@@ -8,10 +8,19 @@ body {
 
 main {
     padding: 30px;
+    display: grid;
+    grid-template-columns: auto;
+    background
+}
+
+#input-section {
+    display: grid;
+    grid-template-columns: auto;
+    width: 50px;
 }
 
 header {
-    background-color: #A2D7D2;
+    background-color: red;
     height: 110px;
     padding: 0 30px;
     display: flex;
@@ -30,12 +39,12 @@ h1 {
 }
 
 footer {
-    background-color: #FAF0EA;
+    background-color: blue;
     padding: 10px;
 }
 
 .highlight {
-    font-size: 2rem;
+    color: red;
 }
 
 #main-text {
