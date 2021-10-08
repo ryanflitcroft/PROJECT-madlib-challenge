@@ -27,8 +27,6 @@ const span10 = document.getElementById('adjective-4');
 
 const submitButton = document.getElementById('submit-button');
 
-
-
 // set event listeners 
     // get user input(s)
     // do any needed work with the value(s)
