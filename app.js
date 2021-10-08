@@ -27,19 +27,12 @@ const span10 = document.getElementById('adjective-4');
 
 const submitButton = document.getElementById('submit-button');
 
-
-
 // set event listeners 
     // get user input(s)
     // do any needed work with the value(s)
     // update DOM to reflect new value(s)
 
     submitButton.addEventListener('click', () => {
-        const input1 = input1.value;
-        const span1 = span1.value;
-
-        const newInputValue = copyValueTo(input1, span1);
+        copyValueTo(input1, span1);
     });
 
-    console.log(span1.textContent);
-    console.log(input1.textContent);
