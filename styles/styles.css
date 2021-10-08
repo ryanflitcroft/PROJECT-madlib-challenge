@@ -37,3 +37,7 @@ footer {
 .highlight {
     font-size: 2rem;
 }
+
+#main-text {
+    visibility: hidden;
+}

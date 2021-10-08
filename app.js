@@ -43,5 +43,6 @@ submitButton.addEventListener('click', () => {
     copyValueTo(input8, span8);
     copyValueTo(input9, span9);
     copyValueTo(input10, span10);
+    document.getElementById('main-text').style.visibility = 'visible';
 });
 
