@@ -34,12 +34,16 @@ const submitButton = document.getElementById('submit-button');
     // do any needed work with the value(s)
     // update DOM to reflect new value(s)
 
-    submitButton.addEventListener('click', () => {
-        const input1 = input1.value;
-        const span1 = span1.value;
+submitButton.addEventListener('click', () => {
+    copyValueTo(input1, span1);
+    copyValueTo(input2, span2);
+    copyValueTo(input3, span3);
+    copyValueTo(input4, span4);
+    copyValueTo(input5, span5);
+    copyValueTo(input6, span6);
+    copyValueTo(input7, span7);
+    copyValueTo(input8, span8);
+    copyValueTo(input9, span9);
+    copyValueTo(input10, span10);
+});
 
-        const newInputValue = copyValueTo(input1, span1);
-    });
-
-    console.log(span1.textContent);
-    console.log(input1.textContent);
